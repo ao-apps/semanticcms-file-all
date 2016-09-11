@@ -32,7 +32,7 @@ along with semanticcms-file-all.  If not, see <http://www.gnu.org/licenses />.
 
 	<groupId>com.semanticcms</groupId>
 	<artifactId>semanticcms-file-all</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.1</version>
 	<packaging>pom</packaging>
 
 	<name>SemanticCMS File All</name>
@@ -43,7 +43,7 @@ along with semanticcms-file-all.  If not, see <http://www.gnu.org/licenses />.
 		<connection>scm:git:git://github.com/aoindustries/semanticcms-file-all.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/semanticcms-file-all.git</developerConnection>
 		<url>http://github.com/aoindustries/semanticcms-file-all</url>
-		<tag>HEAD</tag>
+		<tag>semanticcms-file-all-1.1</tag>
 	</scm>
 
 	<dependencies>
