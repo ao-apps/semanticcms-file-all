@@ -35,15 +35,21 @@ along with semanticcms-file-all.  If not, see <http://www.gnu.org/licenses />.
 	<version>1.2.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
+	<properties>
+		<bookPath>/file/all</bookPath>
+		<shortTitle>All</shortTitle>
+	</properties>
+
 	<name>SemanticCMS File All</name>
-	<url>https://semanticcms.com/file/all/</url>
+	<url>https://semanticcms.com${bookPath}/</url><!-- Can't inherit due to multi-module -->
 	<description>Convenience POM to include most SemanticCMS File features, not including documentation or examples.</description>
 	<inceptionYear>2016</inceptionYear>
 
 	<scm>
-		<connection>scm:git:git://github.com/aoindustries/semanticcms-file-all.git</connection>
-		<developerConnection>scm:git:git@github.com:aoindustries/semanticcms-file-all.git</developerConnection>
-		<url>https://github.com/aoindustries/semanticcms-file-all</url>
+		<!-- Can't inherit due to multi-module -->
+		<connection>scm:git:git://github.com/aoindustries/${project.artifactId}.git</connection>
+		<developerConnection>scm:git:git@github.com:aoindustries/${project.artifactId}.git</developerConnection>
+		<url>https://github.com/aoindustries/${project.artifactId}</url>
 		<tag>HEAD</tag>
 	</scm>
 
