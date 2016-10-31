@@ -57,7 +57,7 @@ along with semanticcms-file-all.  If not, see <http://www.gnu.org/licenses />.
 		<changelog:release
 			projectName="@{project.name}"
 			version="1.2.1"
-			dateCreated="2016-10-20T19:37:00-0500"
+			datePublished="2016-10-20T19:37:00-0500"
 			groupId="@{project.groupId}"
 			artifactId="@{project.artifactId}"
 			scmUrl="@{project.scm.url}"
@@ -71,7 +71,7 @@ along with semanticcms-file-all.  If not, see <http://www.gnu.org/licenses />.
 		<changelog:release
 			projectName="@{project.name}"
 			version="1.2.0"
-			dateCreated="2016-10-04T22:31:00-0500"
+			datePublished="2016-10-04T22:31:00-0500"
 			groupId="@{project.groupId}"
 			artifactId="@{project.artifactId}"
 			scmUrl="@{project.scm.url}"
@@ -84,7 +84,7 @@ along with semanticcms-file-all.  If not, see <http://www.gnu.org/licenses />.
 		<changelog:release
 			projectName="@{project.name}"
 			version="1.1"
-			dateCreated="2016-09-11T16:36:00-0500"
+			datePublished="2016-09-11T16:36:00-0500"
 			groupId="@{project.groupId}"
 			artifactId="@{project.artifactId}"
 			scmUrl="@{project.scm.url}"
@@ -97,7 +97,7 @@ along with semanticcms-file-all.  If not, see <http://www.gnu.org/licenses />.
 		<changelog:release
 			projectName="@{project.name}"
 			version="1.0"
-			dateCreated="2016-09-03T10:31:00-0500"
+			datePublished="2016-09-03T10:31:00-0500"
 			groupId="@{project.groupId}"
 			artifactId="@{project.artifactId}"
 			scmUrl="@{project.scm.url}"
