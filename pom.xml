@@ -33,7 +33,7 @@ along with semanticcms-file-all.  If not, see <http://www.gnu.org/licenses />.
 
 	<groupId>com.semanticcms</groupId>
 	<artifactId>semanticcms-file-all</artifactId>
-	<version>1.2.4-SNAPSHOT</version>
+	<version>1.2.4-validation-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>SemanticCMS File All</name>
