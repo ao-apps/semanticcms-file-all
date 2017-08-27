@@ -37,7 +37,7 @@ along with semanticcms-file-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-30T23:06:00-0500"
-		dateModified="2017-08-03T12:47:42-0500"
+		dateModified="2017-08-27T12:42:33-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-file-all:pom.version}" />
@@ -58,6 +58,8 @@ along with semanticcms-file-all.  If not, see <http://www.gnu.org/licenses />.
 					<li>Updated version of <core:link book="/file/servlet" page="/" />.</li>
 					<li>Updated version of <core:link book="/file/style" page="/" />.</li>
 					<li>Updated version of <core:link book="/file/taglib" page="/" />.</li>
+					<li>Updated version of <core:link book="/file/view" page="/" />.</li>
+					<li>New module <core:link book="/file/renderer/html" page="/" />.</li>
 				</ul>
 			</changelog:release>
 		</c:if>

@@ -34,7 +34,7 @@ along with semanticcms-file-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="@{documented.shortTitle}"
 		description="@{documented.description}"
 		datePublished="2016-10-19T14:02:00-0500"
-		dateModified="2017-07-18T20:35:30-0500"
+		dateModified="2017-08-26T16:51:49-0500"
 	>
 		<core:child page="changelog" />
 		<ao:include
@@ -61,6 +61,7 @@ along with semanticcms-file-all.  If not, see <http://www.gnu.org/licenses />.
 		<section:section label="Modules Included">
 			<ul>
 				<li><core:link book="/file/model" page="/" /></li>
+				<li><core:link book="/file/renderer/html" page="/" /></li>
 				<li><core:link book="/file/servlet" page="/" /></li>
 				<li><core:link book="/file/style" page="/" /></li>
 				<li><core:link book="/file/taglib" page="/" /></li>
