@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [SemanticCMS](https://semanticcms.com/) / [File](https://semanticcms.com/file/) / [All](https://semanticcms.com/file/all/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [SemanticCMS](https://github.com/aoindustries/semanticcms) / [File](https://github.com/aoindustries/semanticcms-file) / [All](https://github.com/aoindustries/semanticcms-file-all)
 <p>
 	<a href="https://aoindustries.com/life-cycle#project-current-stable">
 		<img src="https://semanticcms.com/ao-badges/project-current-stable.svg" alt="project: current stable" />
@@ -24,7 +24,7 @@
 	</a>
 </p>
 
-Convenience POM to include most [SemanticCMS File](https://semanticcms.com/file/) features, not including documentation or examples.
+Convenience POM to include most [SemanticCMS File](https://github.com/aoindustries/semanticcms-file) features, not including documentation or examples.
 
 ## Project Links
 * [Project Home](https://semanticcms.com/file/all/)
@@ -33,11 +33,11 @@ Convenience POM to include most [SemanticCMS File](https://semanticcms.com/file/
 * [GitHub](https://github.com/aoindustries/semanticcms-file-all)
 
 ## Modules Included
-* [SemanticCMS File Model](https://semanticcms.com/file/model/)
-* [SemanticCMS File Servlet](https://semanticcms.com/file/servlet/)
-* [SemanticCMS File Style](https://semanticcms.com/file/style/)
-* [SemanticCMS File Taglib](https://semanticcms.com/file/taglib/)
-* [SemanticCMS File View](https://semanticcms.com/file/view/)
+* [SemanticCMS File Model](https://github.com/aoindustries/semanticcms-file-model)
+* [SemanticCMS File Servlet](https://github.com/aoindustries/semanticcms-file-servlet)
+* [SemanticCMS File Style](https://github.com/aoindustries/semanticcms-file-style)
+* [SemanticCMS File Taglib](https://github.com/aoindustries/semanticcms-file-taglib)
+* [SemanticCMS File View](https://github.com/aoindustries/semanticcms-file-view)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
