@@ -37,7 +37,7 @@ along with semanticcms-file-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-30T23:06:00-0500"
-		dateModified="2017-07-20T16:36:47-0500"
+		dateModified="2019-04-21T02:45:29-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-file-all:pom.version}" />
@@ -52,7 +52,13 @@ along with semanticcms-file-all.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{documented.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{documented.scm.url}"
-			/>
+			>
+				<ul>
+					<li>Minimum Java version changed from 1.6 to 1.7.</li>
+					<li>Updated version of <core:link book="/file/servlet" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/file/taglib" page="/index.jspx" />.</li>
+				</ul>
+			</changelog:release>
 		</c:if>
 
 		<changelog:release
