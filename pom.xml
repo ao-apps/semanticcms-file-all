@@ -47,7 +47,6 @@ along with semanticcms-file-all.  If not, see <http://www.gnu.org/licenses />.
 
 	<dependencyManagement>
 		<dependencies>
-			<!-- TODO: semanticcms-file-bom -->
 			<dependency>
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-file-model</artifactId><version>1.4.4-SNAPSHOT</version>
 			</dependency>
