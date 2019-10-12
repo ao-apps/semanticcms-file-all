@@ -36,7 +36,7 @@ along with semanticcms-file-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-30T23:06:00-0500"
-		dateModified="2019-09-30T06:17:59-0500"
+		dateModified="2019-10-12T00:06:55-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-file-all:pom.version}" />
@@ -57,6 +57,21 @@ along with semanticcms-file-all.  If not, see <http://www.gnu.org/licenses />.
 				</ul>
 			</changelog:release>
 		</c:if>
+
+		<changelog:release
+			projectName="@{documented.name}"
+			version="1.4.0"
+			datePublished="2019-10-12T00:06:55-0500"
+			groupId="@{documented.groupId}"
+			artifactId="@{documented.artifactId}"
+			scmUrl="@{documented.scm.url}"
+		>
+			<ul>
+				<li>Updated version of <core:link book="/file/model" page="/" />.</li>
+				<li>Updated version of <core:link book="/file/servlet" page="/" />.</li>
+				<li>Updated version of <core:link book="/file/taglib" page="/" />.</li>
+			</ul>
+		</changelog:release>
 
 		<changelog:release
 			projectName="@{documented.name}"
