@@ -38,7 +38,6 @@ along with semanticcms-file-all.  If not, see <http://www.gnu.org/licenses />.
 	<inceptionYear>2016</inceptionYear>
 
 	<scm>
-		<!-- Can't inherit due to multi-module -->
 		<connection>scm:git:git://github.com/aoindustries/semanticcms-file-all.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/semanticcms-file-all.git</developerConnection>
 		<url>https://github.com/aoindustries/semanticcms-file-all</url>
