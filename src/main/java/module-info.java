@@ -1,6 +1,6 @@
 /*
  * semanticcms-file-all - Convenience POM to include most SemanticCMS File features, not including documentation or examples.
- * Copyright (C) 2021  AO Industries, Inc.
+ * Copyright (C) 2021, 2022  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -21,8 +21,8 @@
  * along with semanticcms-file-all.  If not, see <https://www.gnu.org/licenses/>.
  */
 module com.semanticcms.file.all {
-	// Direct
-	requires transitive com.semanticcms.file.model; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-file-model</artifactId>
-	requires transitive com.semanticcms.file.servlet; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-file-servlet</artifactId>
-	requires transitive com.semanticcms.file.taglib; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-file-taglib</artifactId>
+  // Direct
+  requires transitive com.semanticcms.file.model; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-file-model</artifactId>
+  requires transitive com.semanticcms.file.servlet; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-file-servlet</artifactId>
+  requires transitive com.semanticcms.file.taglib; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-file-taglib</artifactId>
 }
