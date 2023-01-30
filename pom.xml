@@ -112,9 +112,10 @@ along with semanticcms-file-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
         <configuration>
           <usedDependencies>
-            <!-- Direct -->
-            <dependency>com.semanticcms:semanticcms-file-servlet</dependency><!-- Required for module-info.java -->
-            <dependency>com.semanticcms:semanticcms-file-taglib</dependency><!-- Required for module-info.java -->
+            <!-- Required for module-info.java -->
+            <dependency>com.semanticcms:semanticcms-file-model</dependency>
+            <dependency>com.semanticcms:semanticcms-file-servlet</dependency>
+            <dependency>com.semanticcms:semanticcms-file-taglib</dependency>
             <!-- Runtime Direct -->
             <dependency>com.semanticcms:semanticcms-file-style</dependency>
             <dependency>com.semanticcms:semanticcms-file-view</dependency>
