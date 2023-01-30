@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 semanticcms-file-all - Convenience POM to include most SemanticCMS File features, not including documentation or examples.
-Copyright (C) 2016, 2017, 2018, 2019, 2020, 2021, 2022  AO Industries, Inc.
+Copyright (C) 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -112,9 +112,10 @@ along with semanticcms-file-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
         <configuration>
           <usedDependencies>
-            <!-- Direct -->
-            <dependency>com.semanticcms:semanticcms-file-servlet</dependency><!-- Required for module-info.java -->
-            <dependency>com.semanticcms:semanticcms-file-taglib</dependency><!-- Required for module-info.java -->
+            <!-- Required for module-info.java -->
+            <dependency>com.semanticcms:semanticcms-file-model</dependency>
+            <dependency>com.semanticcms:semanticcms-file-servlet</dependency>
+            <dependency>com.semanticcms:semanticcms-file-taglib</dependency>
             <!-- Runtime Direct -->
             <dependency>com.semanticcms:semanticcms-file-renderer-html</dependency>
             <dependency>com.semanticcms:semanticcms-file-style</dependency>
