@@ -30,7 +30,7 @@ along with semanticcms-file-all.  If not, see <https://www.gnu.org/licenses/>.
   </parent>
 
   <groupId>com.semanticcms</groupId><artifactId>semanticcms-file-all</artifactId><version>1.7.1-POST-SNAPSHOT</version>
-  <packaging>bundle</packaging>
+  <packaging>jar</packaging>
 
   <properties>
     <module.name>com.semanticcms.file.all</module.name>
